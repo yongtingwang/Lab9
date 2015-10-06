@@ -1,0 +1,73 @@
+// Basic Inputs
+NET "clk" LOC = R10;
+NET "pb_in_rst" LOC = T2;
+
+// 14-seg Display
+NET "display[18]" LOC = T6;
+NET "display[17]" LOC = V6;
+NET "display[16]" LOC = U8;
+NET "display[15]" LOC = V8;
+NET "display[14]" LOC = P6;
+NET "display[13]" LOC = N4;
+NET "display[12]" LOC = V5;
+NET "display[11]" LOC = T5;
+NET "display[10]" LOC = U7;
+NET "display[9]" LOC = R3;
+NET "display[8]" LOC = N5;
+NET "display[7]" LOC = R5;
+NET "display[6]" LOC = T3;
+NET "display[5]" LOC = T4;
+NET "display[4]" LOC = V4;
+NET "display[3]" LOC = V7;
+NET "display[2]" LOC = R7;
+NET "display[1]" LOC = T7;
+NET "display[0]" LOC = U5;
+
+// LEDs
+#NET "led[0]" LOC = K4;
+#NET "led[1]" LOC = K3;
+#NET "led[2]" LOC = L5;
+#NET "led[3]" LOC = K5;
+#NET "led[4]" LOC = H4;
+#NET "led[5]" LOC = H3;
+#NET "led[6]" LOC = L7;
+#NET "led[7]" LOC = K6;
+#NET "led[8]" LOC = G3;
+#NET "led[9]" LOC = G1;
+#NET "led[10]" LOC = J7;
+#NET "led[11]" LOC = J6;
+#NET "led[12]" LOC = F2;
+#NET "led[13]" LOC = F1;
+#NET "led[14]" LOC = H6;
+#NET "led[15]" LOC = H5;
+
+// Keypad Scan
+#NET "col_in[3]" LOC = H1;
+#NET "col_in[2]" LOC = H2;
+#NET "col_in[1]" LOC = J1;
+#NET "col_in[0]" LOC = J3;
+#NET "row_scn[3]" LOC = L3;
+#NET "row_scn[2]" LOC = L4;
+#NET "row_scn[1]" LOC = K1;
+#NET "row_scn[0]" LOC = K2;
+
+// DIP switches
+#NET "dip" LOC = T1;
+#NET "dip[1]" LOC = P2;
+#NET "dip[2]" LOC = P1;
+#NET "dip[3]" LOC = L2;
+#NET "dip[4]" LOC = M1;
+
+// Push Buttons
+NET "pb_in_vol[0]" LOC = L6;
+NET "pb_in_vol[1]" LOC = M5;
+NET "pb_in_note[0]" LOC = N3;
+NET "pb_in_note[1]" LOC = P4;
+NET "pb_in_note[2]" LOC = P3;
+
+// Speaker
+NET "audio_appsel" LOC = H18;
+NET "audio_bck" LOC = K16;
+NET "audio_sysclk" LOC = H17;
+NET "audio_ws" LOC = L15;
+NET "audio_data" LOC = L16;

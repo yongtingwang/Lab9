@@ -1,0 +1,8 @@
+
+NET "audio_APPSEL" LOC = H18;
+NET "audio_BCK" LOC = K16;
+NET "audio_SYSCLK" LOC = H17;
+NET "audio_WS" LOC = L15;
+NET "audio_DATA" LOC = L16;
+NET "clk" LOC = R10;
+NET "rst_n" LOC = T2;
